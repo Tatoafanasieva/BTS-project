@@ -1,0 +1,144 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(208, 157, 255);
+}
+
+h1 {
+    text-align: center;
+    color: blueviolet;
+    font-size: 800%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 300%;
+}
+
+h3 {
+    text-align: left;
+    font-size: 250%;
+}
+
+h4 {
+    text-align: center;
+    font-size: 150%
+}
+
+#BTSLogo {
+    width: 100%;
+}
+
+#JIN {
+    display: flex;
+    background-color: rgb(193, 126, 255);
+}
+
+#SUGA {
+    display: flex;
+    background-color: rgb(193, 126, 255);
+}
+
+#J-HOPE {
+    display: flex;
+    background-color: rgb(193, 126, 255);
+}
+
+#RM {
+    display: flex;
+    background-color: rgb(193, 126, 255);
+}
+
+#JIMIN {
+    display: flex;
+    background-color: rgb(193, 126, 255);
+}
+
+#V {
+    display: flex;
+    background-color: rgb(193, 126, 255);
+}
+
+#JUNGKOOK {
+    display: flex;
+    background-color: rgb(193, 126, 255);
+}
+
+p {
+    margin: 20px;
+    font-size: 125%;
+}
+
+td,
+th {
+    border: 2px solid;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+#title {
+    background-color: blueviolet;
+}
+
+#answer {
+    background-color: rgb(197, 136, 255)
+}
+
+#photos img{
+    width: 200px;
+    margin: 50px;
+}
+
+#photos {
+    display: flex;
+    justify-content: center;
+}
+
+#official_pages {
+    display: flex;
+    justify-content: center;
+    font-size: 400%;
+}
+
+li {
+    list-style-position: inside;
+    font-size: 100%;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    font-size: 100%;
+}
+
+#quiz {
+    display: flex;
+    justify-content: center;
+    font-size: 400%;
+    width: 100px;
+    left: 700px;
+    height: 100px;
+    position: relative;
+    animation-name: quiz;
+    animation-duration:2s;
+}
+
+@keyframes quiz {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+    50%{
+        left: 1400px;
+        top: 0px;
+    }
+
+    100% {
+        left: 700px;
+        top: 0px;
+    }
+}

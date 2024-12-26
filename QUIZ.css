@@ -1,0 +1,59 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(208, 157, 255);
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: blueviolet;
+    font-size: 800%;
+}
+
+h2 {
+    font-size: 200%;
+    text-align: center;
+}
+
+h3 {
+    font-size: 400%;
+}
+
+h4 {
+    font-size: 300%;
+}
+
+h5 {
+    font-size: 300%;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    font-size: 300%;
+}
+
+button {
+    font-size: 25px;
+    background-color: blueviolet;
+    color: #fff;
+    margin: 20px;
+}
+
+a {
+    color: #fff;
+    font-size: 150%;
+}
+
+img {
+    width: 43%;
+    height: 43%;
+    margin: 20px;
+}
+
+p {
+    font-size: 750%;
+}
